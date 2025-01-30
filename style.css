@@ -25,6 +25,7 @@ nav{
 }
 nav h1{
     text-transform: uppercase;
+    font-size: 2vw;
 }
 #Links a{
     text-decoration: none;
@@ -82,9 +83,28 @@ nav h1{
     /* padding: 9vh 1vw; */
 }
 @media (max-width:600px) {
+    nav{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    nav h1{
+        font-size: 5vw;
+    }
+    #Links{
+        margin-top: 1.5vh;
+
+    }
+    #Links a{
+        font-size: 3vw;
+    }
     #hero-section{
         display: flex;
         flex-wrap: wrap;
+    }
+    #row1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     
 }
