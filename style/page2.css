@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+nav{
+    height: 8vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#btn1{
+    display: flex;
+}
+#btn1 h2{
+    font-size: 2vw;
+}
+#btn1 i{
+    font-size: 2vw;
+}
+
+#btn2{
+    display: flex;
+    gap: 1.2vw;
+}
+#btn2 h2{
+    font-size: 2vw;
+}
+#btn2 i{
+    font-size: 2vw;
+    
+}
+#hero-section{
+    height: calc(100% - 8vh);
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    /* gap: 5vh; */
+    flex-direction: column;
+
+}
+.row1{
+    height:25% ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    /* gap: 1vw; */
+}
+.card-1{
+    height: 100%;
+    width: 20%;
+    background-color: #00a8ff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1 h2{
+    display: none;
+}
+.card-1:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+
+}
+.card-1 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-2{
+    height: 100%;
+    width: 20%;
+    background-color: #9c88ff;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-2 h2{
+    display: none;
+}
+.card-2:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+
+}
+.card-2 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-3{
+    height: 100%;
+    width: 20%;
+    background-color: #fbc531;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-3 h2{
+    display: none;
+}
+.card-3:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-3 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-4{
+    height: 100%;
+    width: 20%;
+    background-color: #4cd137;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-4 h2{
+    display: none;
+}
+.card-4:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-4 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-5{
+    height: 100%;
+    width: 20%;
+    background-color: #487eb0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-5 h2{
+    display: none;
+}
+.card-5:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-5 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+/* row2 */
+.row2{
+    height:25% ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.card-6{
+    height: 100%;
+    width: 20%;
+    background-color: #0097e6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-6 h2{
+    display: none;
+}
+.card-6:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-6 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-7{
+    height: 100%;
+    width: 20%;
+    background-color:#8c7ae6;  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-7 h2{
+    display: none;
+}
+.card-7:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-7 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-8{
+    height: 100%;
+    width: 20%;
+    background-color: #e1b12c;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-8 h2{
+    display: none;
+}
+.card-8:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-8 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-9{
+    height: 100%;
+    width: 20%;
+    background-color: #44bd32;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-9 h2{
+    display: none;
+}
+.card-9:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-9 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-10{
+    height: 100%;
+    width: 20%;
+    background-color:#40739e;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-10 h2{
+    display: none;
+}
+.card-10:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-10 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+/* ROW3 */
+.row3{
+    height:25% ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    /* gap: 1vw; */
+}
+.card-11{
+    height: 100%;
+    width: 20%;
+    background-color: #e84118;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-11 h2{
+    display: none;
+}
+.card-11:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-11 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-12{
+    height: 100%;
+    width: 20%;
+    background-color:#f5f6fa;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-12 h2{
+    display: none;
+}
+.card-12:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-12 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-13{
+    height: 100%;
+    width: 20%;
+    background-color: #7f8fa6;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-13 h2{
+    display: none;
+}
+.card-13:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-13 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-14{
+    height: 100%;
+    width: 20%;
+    background-color:#273c75;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-14 h2{
+    display: none;
+}
+.card-14:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-14 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-15{
+    height: 100%;
+    width: 20%;
+    background-color:#353b48;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-15 h2{
+    display: none;
+}
+.card-15:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-15 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+/* row4 */
+.row4{
+    height:25% ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    /* gap: 1vw; */
+}
+.card-16{
+    height: 100%;
+    width: 20%;
+    background-color: #c23616;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-16 h2{
+    display: none;
+}
+.card-16:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-16 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-17{
+    height: 100%;
+    width: 20%;
+    background-color:#dcdde1;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-17 h2{
+    display: none;
+}
+.card-17:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-17 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-18{
+    height: 100%;
+    width: 20%;
+    background-color: #718093;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-18 h2{
+    display: none;
+}
+.card-18:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-18 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-19{
+    height: 100%;
+    width: 20%;
+    background-color:#192a56;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-19 h2{
+    display: none;
+}
+.card-19:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-19 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+.card-20{
+    height: 100%;
+    width: 20%;
+    background-color:#2f3640;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-20 h2{
+    display: none;
+}
+.card-20:hover h2{
+    border: 2px solid white;
+    color: white;
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vh 1.6vw;
+    border-radius: 1.5vw;
+    display: flex;
+    opacity: 0.35;
+}
+.card-20 h4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+@media (max-width:600px) {
+    #btn1 h2{
+        font-size: 5vw;
+    }
+    #btn1 i{
+        font-size: 5vw;
+    }
+    #btn2 h2{
+        font-size: 5vw;
+    }
+    #btn2 i{
+        font-size: 5vw;
+    }
+    
+}
